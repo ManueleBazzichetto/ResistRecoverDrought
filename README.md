@@ -20,3 +20,5 @@ Please, run the scripts following this order: Functions -> Data_prep -> SPEI_dat
 - Analysis2: this script reports the analysis on the effect of the interaction between drought intensity and biodiversity on biomass resistance and recovery;
 - Diagnostics: diagnostics of the models fitted in 'Analysis';
 - ModelTables: this script allows reproducing the tables of model summaries.   
+
+**All data made available in this repo are released under CC-BY license**

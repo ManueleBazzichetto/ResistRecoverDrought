@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+  <Document>
+    <name>Alb_EpVipPlots</name>
+    <description>Exploratories kml files for use in google earth. Derived by Andreas Ostrowski</description>
+    <Style id="EpStyle">
+      <IconStyle id="">
+        <color>96FF0000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle-lv.png</href>
+        </Icon>
+        <HotSpot x="0" y="0" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+    </Style>
+    <Style id="VipStyle">
+      <IconStyle id="">
+        <color>960000FF</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+        </Icon>
+        <HotSpot x="0" y="0" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>AEW1 (A18422)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.334410162,48.478073165</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW2 (A20965)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.3514506421,48.3799904765</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW3 (A21613)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.355590784,48.4122625017</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW4 (A5276)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.2448273429,48.3990986481</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW5 (A30591)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.4146817957,48.4196184682</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW6 (A35255)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.4459367075,48.3940513182</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW7 (A7321)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.2613559815,48.3962384103</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW8 (A25660)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.3823844929,48.3825895508</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW9 (A30535)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.4152176233,48.3693457637</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW10 (A27281)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3931477757,48.3777869241</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW11 (A16193)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3197522888,48.4915951512</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW12 (A5863)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.2513658515,48.3694616359</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW13 (A28098)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3986777067,48.3789099752</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW14 (A18920)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.337759582,48.3755620401</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW15 (A29334)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4065105777,48.3894672795</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW16 (A35042)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4446523886,48.3861424622</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW17 (A5149)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.2429915954,48.3964586199</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW18 (A4246)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.2337993934,48.36500227</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW19 (A14961)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3111837565,48.4842445665</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW20 (A16058)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3187195033,48.3701037561</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW21 (A16389)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3211949623,48.4843968668</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW22 (A36262)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4526381407,48.3823072372</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW23 (A41483)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4879752912,48.3858317363</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW24 (A12513)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.2947850994,48.4789820525</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW25 (A31470)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4209567168,48.475891201</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW26 (A34057)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4381710237,48.417462913</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW27 (A39499)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4743515014,48.4002326117</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW28 (A13956)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3050099068,48.4923546666</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW29 (A21785)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3566062224,48.3836617112</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW30 (A24017)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3713773469,48.3727333655</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW31 (A6692)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.2568234938,48.3811404452</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW32 (A23243)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3663848487,48.4105199182</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW33 (A41892)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.490470405,48.3911719491</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW34 (A42708)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4958712598,48.3911487688</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW35 (A30620)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4151647193,48.4456961992</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW36 (A3271)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.2230702498,48.3804016572</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW37 (A34233)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4391681555,48.392098933</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW38 (A35243)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4454349383,48.3829918802</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW39 (A4506)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.2365486248,48.3757882361</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW40 (A20690)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3494366049,48.499602234</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW41 (A28898)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4041380519,48.3644121378</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW42 (A36277)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4527065741,48.3960932296</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW43 (A25044)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3783084379,48.3790957789</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW44 (A3277)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.223093501,48.3857074703</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW45 (A43486)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.5012535366,48.3892368857</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW46 (A22196)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3593246896,48.3862612052</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW47 (A29568)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4079033192,48.4167020413</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW48 (A39288)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4727567005,48.388458367</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW49 (A39748)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4763942883,48.4453687526</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEW50 (A6296)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.2544483408,48.3921171677</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG1 (A19557)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.3419867529,48.3980050128</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG2 (A39275)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.4727841247,48.3768572731</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG3 (A48112)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.5323787503,48.4088814832</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG4 (A31160)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.4188891246,48.3808884549</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG5 (A34237)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.4392007081,48.3958758627</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG6 (A34651)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.4416781078,48.401262153</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG7 (A24854)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.3768471301,48.3914209811</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG8 (A42131)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.4921245872,48.4226402847</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG9 (A43687)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>9.5027923796,48.3946709269</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG10 (A2277)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.2126008478,48.3787128703</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG11 (A20470)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3477155235,48.4853987987</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG12 (A20771)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3502309279,48.3891220871</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG13 (A22610)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3621982699,48.3916479693</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG14 (A46088)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.5186692771,48.3757600015</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG15 (A35767)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4486539191,48.487881799</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG16 (A36692)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4554611349,48.40210764</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG17 (A46114)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.5183688727,48.3993230386</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG18 (A46500)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.5214424368,48.3829418675</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG19 (A35463)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4473185834,48.39764314</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG20 (A21699)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3564020806,48.4895088831</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG21 (A21850)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3572193006,48.4422038842</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG22 (A45310)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.5134230403,48.4043813138</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG23 (A45122)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.512354055,48.4189546956</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG24 (A42306)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4934922481,48.3964648774</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG25 (A7116)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.2595965836,48.3954780011</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG26 (A28932)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4038818301,48.3951061598</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG27 (A40320)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4799316588,48.4191396371</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG28 (A42175)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.492303341,48.4620734674</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG29 (A22026)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.358324659,48.4168404068</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG30 (A36956)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4572977908,48.4562378064</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG31 (A37367)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4600244612,48.4587449338</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG32 (A41172)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.485781341,48.4658332639</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG33 (A41959)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4910511483,48.4514222421</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG34 (A43366)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.5005580665,48.4558776829</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG35 (A11495)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.2884387238,48.4808866615</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG36 (A13124)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.2992438253,48.4781611668</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG37 (A30361)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4135454726,48.3961509361</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG38 (A32042)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4252511339,48.4395441364</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG39 (A32195)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4256829259,48.3942180774</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG40 (A53417)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.5665626636,48.4097972087</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG41 (A28088)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3984861338,48.3699446079</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG42 (A24657)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.3760179249,48.3979885716</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG43 (A49542)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.5420173244,48.4134228471</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG44 (A33605)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4349969019,48.3779957932</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG45 (A37099)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4579527081,48.4013333334</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG46 (A33626)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4348888005,48.3969714231</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG47 (A35283)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.446157209,48.4192307705</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG48 (A43134)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4986696758,48.4218476697</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG49 (A43953)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.5046227699,48.4567591994</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AEG50 (A38525)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>9.4676487349,48.4056558727</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

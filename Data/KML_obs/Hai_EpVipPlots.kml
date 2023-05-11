@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+  <Document>
+    <name>Hai_EpVipPlots</name>
+    <description>Exploratories kml files for use in google earth. Derived by Andreas Ostrowski</description>
+    <Style id="EpStyle">
+      <IconStyle id="">
+        <color>96FF0000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle-lv.png</href>
+        </Icon>
+        <HotSpot x="0" y="0" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+    </Style>
+    <Style id="VipStyle">
+      <IconStyle id="">
+        <color>960000FF</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+        </Icon>
+        <HotSpot x="0" y="0" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>HEW1 (H274)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.3236211079,51.185355081</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW2 (H301)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.369953938,51.2100112945</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW3 (H303)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.3107384563,51.2716477029</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW4 (H307)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.5333275422,51.369481558</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW5 (H154)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.2409578716,51.2638781296</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW6 (H150)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.2393782624,51.2677198313</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW7 (H71011)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.3854488723,51.131092424</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW8 (H311)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.5169674116,51.3557921769</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW9 (H71310)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.3811496502,51.1302419298</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW10 (H1363)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.4624338733,51.0899873483</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW11 (H8568)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.400854322,51.1028344425</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW12 (H22701)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.4551829807,51.1006881001</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW13 (H302)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3129467075,51.2426439614</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW14 (H306)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.2581516944,51.366163944</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW15 (H87)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.390161909,51.2050771735</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW16 (H58)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3654658654,51.1831603571</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW17 (H130)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.2269038462,51.282813576</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW18 (H637)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3654559913,51.3369669282</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW19 (H32)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3377262691,51.1992291968</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW20 (H548)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3602545497,51.3339278121</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW21 (H20)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3190053755,51.1942782958</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW22 (H551)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3592785389,51.3371502544</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW23 (H104)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.2084480501,51.2782177401</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW24 (H300)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4912116326,51.0465026853</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW25 (H304)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.2239693692,51.2845669846</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW26 (H313)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.5130315249,51.3443262423</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW27 (H310)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.521263964,51.3561161433</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW28 (H308)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.526917886,51.358884052</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW29 (H71407)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3796868348,51.1275428161</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW30 (H71515)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3786368177,51.134683874</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW31 (H71623)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3773142326,51.1422526286</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW32 (H72920)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3585903186,51.1395282849</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW33 (H38964)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.5088148513,51.3415759448</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW34 (H1192)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4542735979,51.0847108328</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW35 (H9686)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4050739485,51.1046899612</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW36 (H10804)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4093031658,51.106275772</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW37 (H12905)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4586076362,51.0844264448</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW38 (H13104)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4601745431,51.0793590584</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW39 (H13939)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4658614642,51.0929539322</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW40 (H18639)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4982588767,51.0799442764</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW41 (H22709)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4549374111,51.1080561853</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW42 (H23819)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4598259195,51.1027539809</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW43 (H531)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3580238771,51.3320987308</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW44 (H674)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3680124678,51.3336765716</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW45 (H305)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.2611071882,51.3639605292</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW46 (H238)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.475472469,51.0480963843</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW47 (H68)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3783438672,51.1789347352</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW48 (H70517)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.393698314,51.1366895595</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW49 (H71125)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3845393934,51.1436471085</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEW50 (H12504)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4554452066,51.0928168175</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG1 (H4580)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.4053629104,50.9716483376</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG2 (H8302)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.4300100103,51.0007489248</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG3 (H8709)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.4329488763,50.9980914934</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG4 (H20510)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.4361803786,51.113362352</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG5 (H20816)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.322526719,51.2158944134</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG6 (H30409)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.3912208733,51.2149350553</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG7 (H12850)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.4104125695,51.2735825557</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG8 (H14707)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.4179445812,51.2712574671</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG9 (H30212)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>10.3807872979,51.2238973736</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG10 (H22151)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4467607106,51.2751490188</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG11 (H24761)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4561779278,51.2806670523</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG12 (H20116)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.5758197075,51.0772200104</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG13 (H4651)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3799460956,51.2596811245</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG14 (H19568)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4357998366,51.2940601984</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG15 (H16781)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4862323114,51.0680130317</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG16 (H12643)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4588433406,51.0334951155</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG17 (H14529)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4704560664,51.070504549</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG18 (H16581)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4246855814,51.2836635589</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG19 (H20606)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4732197941,51.0732375079</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG20 (H30205)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.370980806,51.2210645074</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG21 (H30909)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.7525686959,51.1907043424</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG22 (H37447)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3249271584,51.0307536694</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG23 (H20426)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3381864542,51.1343049651</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG24 (H20438)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3512145548,51.101066362</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG25 (H37029)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.322341733,51.0233900146</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG26 (H2815)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3717252509,51.281500899</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG27 (H20121)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.5969886442,51.0864472749</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG28 (H20535)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4969215328,51.265906526</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG29 (H20537)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4984272508,51.2641100338</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG30 (H20825)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3599108538,51.2018524729</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG31 (H20003)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.2211956781,51.1703585041</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG32 (H20106)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.5676100811,51.075510637</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG33 (H20508)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4259631657,51.1114363932</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG34 (H30402)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3869351606,51.2142917637</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG35 (H30417)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4111191881,51.219827364</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG36 (H20241)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.510233429,51.0314465615</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG37 (H20245)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.5144943419,51.032390748</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG38 (H20433)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3415352077,51.1162026908</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG39 (H20436)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3462476695,51.1202248042</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG40 (H30615)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4468140957,50.9668129807</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG41 (H888)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3669167564,51.221025855</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG42 (H13708)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4647839624,51.0694413682</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG43 (H19577)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4358178074,51.3019709052</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG44 (H20215)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4796324688,51.0551983135</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG45 (H20258)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.5085340367,51.0395333994</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG46 (H30915)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.7535482021,51.2068950614</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG47 (H2818)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3719165024,51.2842003328</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG48 (H5053)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3801379532,51.286831328</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG49 (H8020)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.3918830227,51.2789028874</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HEG50 (H15457)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>10.4207739499,51.2765094035</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

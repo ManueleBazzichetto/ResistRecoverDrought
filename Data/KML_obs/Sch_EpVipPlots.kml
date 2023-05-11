@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+  <Document>
+    <name>Sch_EpVipPlots</name>
+    <description>Exploratories kml files for use in google earth. Derived by Andreas Ostrowski</description>
+    <Style id="EpStyle">
+      <IconStyle id="">
+        <color>96FF0000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle-lv.png</href>
+        </Icon>
+        <HotSpot x="0" y="0" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+    </Style>
+    <Style id="VipStyle">
+      <IconStyle id="">
+        <color>960000FF</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+        </Icon>
+        <HotSpot x="0" y="0" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>SEW1 (S5110)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.8463669499,52.9008472902</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW2 (S5090)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.778028117,52.951728864</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW3 (S5112)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.6430016042,52.9207074362</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW4 (S467)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.8473113725,52.9173466307</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW5 (S219)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.8853662276,53.0570335601</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW6 (S5111)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.8416880472,52.907442793</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW7 (S5106)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.6944189332,53.1073480195</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW8 (S5113)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.9303378591,53.1917971616</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW9 (S5114)</name>
+      <description>VIP - Forest</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.8101029479,53.044586875</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW10 (S5073)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.637843132,53.0910959427</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW11 (S5075)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.6337037671,53.0902936541</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW12 (S5094)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.6982632545,53.0883300835</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW13 (S154)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8639279627,53.0163657036</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW14 (S5098)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.7521735271,52.9179136611</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW15 (S5102)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.7375525556,52.914542078</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW16 (S260)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8639856255,53.0765831695</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW17 (S5001)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8274870493,52.9423507679</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW18 (S5051)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9172479943,52.8624230856</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW19 (S5070)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.6350797244,53.0939848778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW20 (S5074)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.6353842203,53.0886055083</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW21 (S5101)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.740450917,52.9155883093</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW22 (S213)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9140747207,53.0601385484</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW23 (S5089)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.7791918682,52.9489729846</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW24 (S5092)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9671737446,52.8897190116</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW25 (S5095)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.7610957942,52.9209815366</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW26 (S5100)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.7461817871,52.9174012798</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW27 (S5105)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>14.0010438422,52.8899546096</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW28 (S5107)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.6640414169,52.883956729</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW29 (S156)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8622360487,53.0172391815</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW30 (S217)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9223631143,53.06213691</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW31 (S5116)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9033696983,52.8810775398</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW32 (S292)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9270461979,53.0627722974</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW33 (S5038)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8874377589,52.9150420243</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW34 (S5108)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8521470181,52.8958258919</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW35 (S475)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8534187775,52.9112679466</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW36 (S5086)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.7541425496,52.9513641654</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW37 (S5091)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.7826121483,52.9400215749</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW38 (S5104)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.6707369457,52.8884802265</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW39 (S384)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8664454739,52.9247557336</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW40 (S391)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8623651461,52.9147687623</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW41 (S397)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9099253483,52.9122938399</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW42 (S414)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9145343372,52.9027475084</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW43 (S421)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9283255647,52.9009765233</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW44 (S488)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.859220603,52.9184590159</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW45 (S353)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8378888408,53.0454545169</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW46 (S5060)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.7774439698,53.0721224497</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW47 (S5063)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.7713654294,53.0712780629</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW48 (S360)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8449953984,53.0512659201</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW49 (S438)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8912306282,52.885260427</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEW50 (S5117)</name>
+      <description>EP - Forest</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.7870431421,53.039528434</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG1 (S1029)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.969643613,53.0874201199</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG2 (S573)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.9800470219,53.0893068994</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG3 (S526)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.9856996404,53.1028343078</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG4 (S712)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>14.0018710945,53.1137541932</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG5 (S667)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>14.0005236583,53.1074526576</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG6 (S1012)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.6228333298,53.1034952652</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG7 (S570)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.9770687275,53.0883827434</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG8 (S652)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>14.0170996354,53.1139706829</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG9 (S990)</name>
+      <description>VIP - Grassland</description>
+      <styleUrl>#VipStyle</styleUrl>
+      <Point>
+        <coordinates>13.6125669145,53.0981819341</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG10 (S502)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9975565113,53.1066189775</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG11 (S505)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9929664034,53.1055917908</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG12 (S561)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9651666142,53.0873902852</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG13 (S719)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8190368943,52.9729737541</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG14 (S1028)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9802599328,53.0866128921</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG15 (S658)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>14.0091395643,53.1094117133</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG16 (S706)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9991563761,53.1155376108</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG17 (S1015)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.6259992127,53.098328709</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG18 (S1039)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8756098085,53.1373051619</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG19 (S676)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>14.0090911662,53.12451684</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG20 (S980)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.6153816683,53.1035166861</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG21 (S988)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.6111129329,53.1062437745</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG22 (S999)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9738023393,53.1008363304</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG23 (S612)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>14.0259043152,53.1076629229</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG24 (S761)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9960806945,53.0930375778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG25 (S1007)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.6179908205,53.1106282851</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG26 (S1022)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>14.0184348694,53.1058313536</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG27 (S1051)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.7073809813,53.1227841103</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG28 (S1042)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>14.0060802647,53.0931214508</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG29 (S1043)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9986953531,53.090363765</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG30 (S690)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8306804543,53.1481412744</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG31 (S698)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8354379183,53.1490864835</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG32 (S701)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.832087364,53.1519292507</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG33 (S732)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8425129961,52.9857854702</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG34 (S738)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8471996774,52.9831350747</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG35 (S770)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8483181227,52.980270272</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG36 (S1035)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8376434069,52.9869062127</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG37 (S1036)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8760304642,53.1349278101</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG38 (S1044)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.6757639408,53.1157329748</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG39 (S780)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8232869643,52.9809239074</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG40 (S850)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8406712422,53.1157000428</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG41 (S974)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8523423904,53.1221932473</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG42 (S1045)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9688288888,52.8706731952</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG43 (S1046)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9678274355,52.876577569</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG44 (S1047)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9651898491,52.8800593338</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG45 (S1048)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.9593929333,52.8814555267</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG46 (S779)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8263321419,52.9784378063</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG47 (S801)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.827582102,52.9872657751</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG48 (S995)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.6066414018,53.09720511</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG49 (S1033)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.8565786823,52.9747334907</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEG50 (S1052)</name>
+      <description>EP - Grassland</description>
+      <styleUrl>#EpStyle</styleUrl>
+      <Point>
+        <coordinates>13.7503876671,53.1217783222</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

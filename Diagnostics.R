@@ -28,7 +28,7 @@ Across_yrs_regression.all <- lapply(c("LogR", "LogR_tr_plot", "LogR_trend"), fun
                                           Xs = c("Explo", "Yr_lui",
                                                  "Yr_species_rich",
                                                  "Yr_Comb_rao_FP",
-                                                 "Yr_Myco_intensity",
+                                                 "day_of_year",
                                                  "Across_PC1_CWM", 
                                                  "SH10"), std = T)
                   return(reslts)

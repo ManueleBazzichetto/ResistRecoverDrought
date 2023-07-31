@@ -17,7 +17,7 @@ library(car)
 Lab_vars.f <- c('Across_PC1_CWM' = "Slow-fast continuum",
                     'Yr_Comb_rao_FP' = "Functional diversity",
                     'Yr_lui' = "Land-use intensity",
-                    'Yr_Myco_intensity' = "Mycorrhizae int.", 
+                    'day_of_year' = "Day of year", 
                     "SH10" = "Soil humidity")
 
 #fit models considering functional composition and diversity
@@ -28,7 +28,7 @@ Across_yrs_regression <- lapply(c("LogR", "LogR_tr_plot", "LogR_trend"), functio
                   reslts <- Yr_regression(biomass[biomass$Year == i, ], y = resp,
                                           Xs = c("Explo", "Yr_lui",
                                                  "Yr_Comb_rao_FP",
-                                                 "Yr_Myco_intensity",
+                                                 "day_of_year",
                                                  "Across_PC1_CWM", 
                                                  "SH10"), std = T)
                   return(reslts)
@@ -65,7 +65,7 @@ CI_mat_yearsp$Sign <- ifelse(CI_mat_yearsp$Upper_endpoint > 0 & CI_mat_yearsp$Lo
 
 #change order in CI_mat_yearsp
 CI_mat_yearsp$Coef_name_f <- factor(CI_mat_yearsp$Coef_name, levels = c("Across_PC1_CWM", "Yr_Comb_rao_FP",
-                                                                        "Yr_lui", "Yr_Myco_intensity", "SH10",
+                                                                        "Yr_lui", "day_of_year", "SH10",
                                                                         "ExploALB", "ExploHAI", "ExploSCH"))
 
 CI_mat_yearsp$Resp_f <- factor(CI_mat_yearsp$Resp, levels = c("LogR", "LogR_tr_plot", "LogR_trend"))
@@ -103,7 +103,7 @@ CIplot_across <- ggplot(CI_mat_yearsp[(!(CI_mat_yearsp$Coef_name %in% c("ExploAL
 #labels for predictors species richness models
 Lab_vars.sr <- c('Yr_species_rich' = "Species richness",
                 'Yr_lui' = "Land-use intensity",
-                'Yr_Myco_intensity' = "Mycorrhizae int.", 
+                'day_of_year' = "Day of year", 
                 "SH10" = "Soil humidity")
 
 #fit models considering species richness
@@ -114,7 +114,7 @@ Across_yrs_regression.sr <- lapply(c("LogR", "LogR_tr_plot", "LogR_trend"), func
                   reslts <- Yr_regression(biomass[biomass$Year == i, ], y = resp,
                                           Xs = c("Explo", "Yr_lui",
                                                  "Yr_species_rich",
-                                                 "Yr_Myco_intensity",
+                                                 "day_of_year",
                                                  "SH10"), std = T)
                   return(reslts)
                 })
@@ -149,7 +149,7 @@ CI_mat_yearsp.sr$Sign <- ifelse(CI_mat_yearsp.sr$Upper_endpoint > 0 & CI_mat_yea
 #plot models' results
 
 #change order in CI_mat_yearsp
-CI_mat_yearsp.sr$Coef_name_f <- factor(CI_mat_yearsp.sr$Coef_name, levels = c("Yr_species_rich", "Yr_lui", "Yr_Myco_intensity", "SH10",
+CI_mat_yearsp.sr$Coef_name_f <- factor(CI_mat_yearsp.sr$Coef_name, levels = c("Yr_species_rich", "Yr_lui", "day_of_year", "SH10",
                                                                         "ExploALB", "ExploHAI", "ExploSCH"))
 
 CI_mat_yearsp.sr$Resp_f <- factor(CI_mat_yearsp.sr$Resp, levels = c("LogR", "LogR_tr_plot", "LogR_trend"))
@@ -169,7 +169,7 @@ CIplot_across.sr <- ggplot(CI_mat_yearsp.sr[!(CI_mat_yearsp.sr$Coef_name %in% c(
   geom_point() +
   geom_errorbar(aes(ymin = Lower_endpoint, ymax = Upper_endpoint), width = .3) +
   ylab(NULL) + xlab(NULL) +
-  scale_color_discrete(type = c("NO" = "grey54", "YES" = "blue3", "HCCM" = "black")) +
+  scale_color_discrete(type = c("NO" = "grey54", "YES" = "blue3")) +
   facet_grid(Coef_name_f ~ Resp, labeller = labeller(Coef_name_f = Lab_vars.sr, 
                                                       Resp = c("LogR" = "LogR",
                                                                   "LogR_trend" = "LogR ref-reg",
@@ -259,26 +259,26 @@ Summary_fig <- ((Biomass_plot_trend / MainSPEI_plot) | Yr_models_res) + plot_ann
 ggsave(plot = Summary_fig, "~/Documents/ClimateExtremes/CleanCode/Summary_res.jpeg", device = "jpeg", dpi = 300, width = 32, height = 25, units = "cm")
 
 
-#plot merging results for intensity of mycorrhizae and soil humidity for manuscript appendix
+#plot merging results for day of year and soil humidity for manuscript appendix
 
-CI_myco_sh <- rbind(data.frame(CI_mat_yearsp[CI_mat_yearsp$Coef_name %in% c("Yr_Myco_intensity", "SH10"), ],
+CI_dy_sh <- rbind(data.frame(CI_mat_yearsp[CI_mat_yearsp$Coef_name %in% c("day_of_year", "SH10"), ],
                                Mod = "F"),
-                    data.frame(CI_mat_yearsp.sr[CI_mat_yearsp.sr$Coef_name %in% c("Yr_Myco_intensity", "SH10"), ],
+                    data.frame(CI_mat_yearsp.sr[CI_mat_yearsp.sr$Coef_name %in% c("day_of_year", "SH10"), ],
                                Mod = "SR"))
 
-CI_myco_sh$Color <- with(CI_myco_sh, paste(Sign, Mod, sep = "_"))
+CI_dy_sh$Color <- with(CI_dy_sh, paste(Sign, Mod, sep = "_"))
 
-CI_myco_sh$Ungr_facet <- with(CI_myco_sh, paste(Coef_name, Mod, sep = "_"))
+CI_dy_sh$Ungr_facet <- with(CI_dy_sh, paste(Coef_name, Mod, sep = "_"))
 
-CI_myco_sh$Ungr_facet <- factor(CI_myco_sh$Ungr_facet,
-                                 levels = c("Yr_Myco_intensity_F", "Yr_Myco_intensity_SR",
+CI_dy_sh$Ungr_facet <- factor(CI_dy_sh$Ungr_facet,
+                                 levels = c("day_of_year_F", "day_of_year_SR",
                                             "SH10_F", "SH10_SR"))
 
-Myco_SH_combined <- ggplot(CI_myco_sh, aes(y = Estimate, x = as.factor(Year), col = Color)) +
-  geom_rect(data = CI_myco_sh[CI_myco_sh$Resp == "LogR_trend", ],
+Dy_SH_combined <- ggplot(CI_dy_sh, aes(y = Estimate, x = as.factor(Year), col = Color)) +
+  geom_rect(data = CI_dy_sh[CI_dy_sh$Resp == "LogR_trend", ],
             col = "black", fill = "grey70", xmin = -Inf, xmax = Inf,
             ymin = -Inf, ymax = Inf, alpha = 0.1) +
-  geom_rect(data = CI_myco_sh[CI_myco_sh$Resp != "LogR_trend", ],
+  geom_rect(data = CI_dy_sh[CI_dy_sh$Resp != "LogR_trend", ],
             col = "black", fill = "grey94", xmin = -Inf, xmax = Inf,
             ymin = -Inf, ymax = Inf, alpha = 0.1) +
   geom_hline(yintercept = 0, lty = "solid", col = "grey70") +
@@ -286,8 +286,8 @@ Myco_SH_combined <- ggplot(CI_myco_sh, aes(y = Estimate, x = as.factor(Year), co
   geom_errorbar(aes(ymin = Lower_endpoint, ymax = Upper_endpoint), width = 0, position = position_dodge(width = 1)) +
   ylab(NULL) + xlab(NULL) +
   scale_color_discrete(type = c("NO_F" = "grey54", "NO_SR" = "grey54", "YES_F" = "blue3", "YES_SR" = "red")) +
-  facet_grid(Ungr_facet ~ Resp, labeller = labeller(Ungr_facet = c("Yr_Myco_intensity_F" = "Mycorrhizae int.",
-                                                                   "Yr_Myco_intensity_SR" = "Mycorrhizae int.",
+  facet_grid(Ungr_facet ~ Resp, labeller = labeller(Ungr_facet = c("day_of_year_F" = "Day of year",
+                                                                   "day_of_year_SR" = "Day of year",
                                                                    "SH10_F" = "Soil humidity",
                                                                    "SH10_SR" = "Soil humidity"), 
                                                      Resp = c("LogR" = "LogR",
@@ -299,5 +299,5 @@ Myco_SH_combined <- ggplot(CI_myco_sh, aes(y = Estimate, x = as.factor(Year), co
                        axis.text.x.bottom = element_text(size = 10, angle = 45, hjust = 1, vjust = 1),
                        axis.text.y.left = element_text(size = 9), strip.background = element_blank())
 
-ggsave(plot = Myco_SH_combined, "~/Documents/ClimateExtremes/CleanCode/Myco_SH_app.jpeg", device = "jpeg",
+ggsave(plot = Dy_SH_combined, "~/Documents/ClimateExtremes/CleanCode/Dy_SH_app.jpeg", device = "jpeg",
        dpi = 300, width = 18, height = 16, units = "cm")

@@ -20,18 +20,30 @@ library(effects)
 
 ##----------------------------------------------------------------Fit models testing interaction between biodiversity and drought intensity
 
-#compute minmax day of biomass cut
+#compute summary stats about day of biomass cut
 Min_day_harv <- with(biomass, tapply(X = day_of_year, INDEX = list(Explo, Year), min, na.rm = T))
-round(rowMeans(Min_day_harv), digits = 0)
+round(rowMeans(Min_day_harv[, -12]), digits = 0)
 
 Max_day_harv <- with(biomass, tapply(X = day_of_year, INDEX = list(Explo, Year), max, na.rm = T))
-round(rowMeans(Max_day_harv), digits = 0)
+round(rowMeans(Max_day_harv[, -12]), digits = 0)
+
+Med_day_harv <- with(biomass, tapply(X = day_of_year, INDEX = list(Explo, Year), median, na.rm = T))
+round(rowMeans(Med_day_harv[, -12]), digits = 0)
+
+#lower inter-quartile bound (0.25)
+Low_iqr_day_harv <- with(biomass, tapply(X = day_of_year, INDEX = list(Explo, Year), quantile, probs = 0.25, na.rm = T))
+round(rowMeans(Low_iqr_day_harv[, -12]), digits = 0)
+
+#upper inter-quartile bound (0.75)
+Up_iqr_day_harv <- with(biomass, tapply(X = day_of_year, INDEX = list(Explo, Year), quantile, probs = 0.75, na.rm = T))
+round(rowMeans(Up_iqr_day_harv[, -12]), digits = 0)
+
 
 #create data.frame with predictors
 TA_biom.LogRatios <- biomass[!(biomass$Year %in% c("2020")),
                                  c("LogR", "LogR_tr_plot", "Explo",
                                    "Yr_lui", "Across_PC1_CWM",
-                                   "Yr_Comb_rao_FP", "Yr_Myco_intensity",
+                                   "Yr_Comb_rao_FP",
                                    "Yr_species_rich",
                                    "Year", "Useful_EP_PlotID", "day_of_year")]
 
@@ -40,7 +52,7 @@ sum(is.na(TA_biom.LogRatios$LogR)); which(is.na(TA_biom.LogRatios$LogR) & !TA_bi
 #NAs for LogR_tr_plot
 sum(is.na(TA_biom.LogRatios$LogR_tr_plot)); which(is.na(TA_biom.LogRatios$LogR_tr_plot))
 #NAs for predictors
-lapply(TA_biom.LogRatios[c(4, 5, 6, 7, 8, 11)], function(i) which(is.na(i)))
+lapply(TA_biom.LogRatios[c(4, 5, 6, 7, 10)], function(i) which(is.na(i)))
 
 #exclude NAs for Yr_lui (this will exclude NAs for all other predictors, but day_of_year - NAs are all at the same position)
 TA_biom.LogRatios <- TA_biom.LogRatios[!is.na(TA_biom.LogRatios$Yr_lui), ]
@@ -119,12 +131,12 @@ anyNA(TA_LogR_SPEI3)
 
 #fit model with nlme
 Recovery_SPEI3.nlme <- lme(fixed = LogR ~ SPEI_final_cat*(Across_PC1_CWM + Yr_Comb_rao_FP) + Yr_lui + Explo +
-                            day_of_year + Yr_Myco_intensity,
+                            day_of_year,
                           data = TA_LogR_SPEI3, random = ~ 1 | Useful_EP_PlotID)
 
 #fit model with lmer
 Recovery_SPEI3.lmer <- lmer(LogR ~ SPEI_final_cat*(Across_PC1_CWM + Yr_Comb_rao_FP) + Yr_lui + Explo +
-                                  day_of_year + Yr_Myco_intensity + (1 | Useful_EP_PlotID),
+                                  day_of_year + (1 | Useful_EP_PlotID),
                                 data = TA_LogR_SPEI3)
 
 
@@ -144,19 +156,19 @@ plot(predictorEffect(predictor = "Yr_Comb_rao_FP", mod = Recovery_SPEI3.nlme), m
 plot(Recovery_SPEI3.nlme)
 qqPlot(residuals(Recovery_SPEI3.nlme, type = "normalized"))
 vif(Recovery_SPEI3.nlme)
-performance::r2(Recovery_SPEI3.nlme) #.126 (marginal) / .126 (conditional)
+performance::r2(Recovery_SPEI3.nlme) #.112 (marginal) / .112 (conditional)
 
 
 ##models for taxonomic component
 
 #fit model with nlme
 Recovery_SPEI3.tx.nlme <- lme(fixed = LogR ~ SPEI_final_cat*Yr_species_rich + Yr_lui + Explo +
-                             day_of_year + Yr_Myco_intensity,
+                             day_of_year,
                            data = TA_LogR_SPEI3, random = ~ 1 | Useful_EP_PlotID)
 
 #fit model with lmer
 Recovery_SPEI3.tx.lmer <- lmer(LogR ~ SPEI_final_cat*Yr_species_rich + Yr_lui + Explo +
-                              day_of_year + Yr_Myco_intensity + (1 | Useful_EP_PlotID),
+                              day_of_year + (1 | Useful_EP_PlotID),
                             data = TA_LogR_SPEI3)
 
 
@@ -174,7 +186,7 @@ plot(predictorEffect(predictor = "Yr_species_rich", mod = Recovery_SPEI3.tx.nlme
 plot(Recovery_SPEI3.tx.nlme)
 qqPlot(residuals(Recovery_SPEI3.tx.nlme, type = "normalized"))
 vif(Recovery_SPEI3.tx.nlme)
-performance::r2(Recovery_SPEI3.tx.nlme) #.185 (marginal) / .185 (conditional)
+performance::r2(Recovery_SPEI3.tx.nlme) #.173 (marginal) / .173 (conditional)
 
 
 ##----------------------------------------------------------------SPEI-12
@@ -208,12 +220,12 @@ anyNA(TA_LogR_SPEI12)
 
 #fit model with nlme
 Recovery_SPEI12.nlme <- lme(fixed = LogR ~ SPEI_final_cat*(Across_PC1_CWM + Yr_Comb_rao_FP) + Yr_lui + Explo +
-                             day_of_year + Yr_Myco_intensity,
+                             day_of_year,
                            data = TA_LogR_SPEI12, random = ~ 1 | Useful_EP_PlotID)
 
 #fit model with lmer
 Recovery_SPEI12.lmer <- lmer(LogR ~ SPEI_final_cat*(Across_PC1_CWM + Yr_Comb_rao_FP) + Yr_lui + Explo +
-                              day_of_year + Yr_Myco_intensity + (1 | Useful_EP_PlotID),
+                              day_of_year + (1 | Useful_EP_PlotID),
                             data = TA_LogR_SPEI12)
 
 
@@ -233,19 +245,19 @@ plot(predictorEffect(predictor = "Yr_Comb_rao_FP", mod = Recovery_SPEI12.nlme), 
 plot(Recovery_SPEI12.nlme)
 qqPlot(residuals(Recovery_SPEI12.nlme, type = "normalized"))
 vif(Recovery_SPEI12.nlme)
-performance::r2(Recovery_SPEI12.nlme) #.286 (marginal) / .286 (conditional)
+performance::r2(Recovery_SPEI12.nlme) #.284 (marginal) / .284 (conditional)
 
 
 ##models for taxonomic component
 
 #fit model with nlme
 Recovery_SPEI12.tx.nlme <- lme(fixed = LogR ~ SPEI_final_cat*Yr_species_rich + Yr_lui + Explo +
-                                day_of_year + Yr_Myco_intensity,
+                                day_of_year,
                               data = TA_LogR_SPEI12, random = ~ 1 | Useful_EP_PlotID)
 
 #fit model with lmer
 Recovery_SPEI12.tx.lmer <- lmer(LogR ~ SPEI_final_cat*Yr_species_rich + Yr_lui + Explo +
-                                 day_of_year + Yr_Myco_intensity + (1 | Useful_EP_PlotID),
+                                 day_of_year + (1 | Useful_EP_PlotID),
                                data = TA_LogR_SPEI12)
 
 
@@ -263,7 +275,7 @@ plot(predictorEffect(predictor = "Yr_species_rich", mod = Recovery_SPEI12.tx.nlm
 plot(Recovery_SPEI12.tx.nlme)
 qqPlot(residuals(Recovery_SPEI12.tx.nlme, type = "normalized"))
 vif(Recovery_SPEI12.tx.nlme)
-performance::r2(Recovery_SPEI12.tx.nlme) #.287 (marginal) / .287 (conditional)
+performance::r2(Recovery_SPEI12.tx.nlme) #.285 (marginal) / .285 (conditional)
 
 
 ##----------------------------------------------------------------SPEI-24
@@ -300,7 +312,7 @@ anyNA(TA_LogR_SPEI24)
 
 #fit model with lm
 Recovery_SPEI24 <- lm(LogR ~ Across_PC1_CWM + Yr_Comb_rao_FP + Yr_lui + Explo +
-                              day_of_year + Yr_Myco_intensity,
+                              day_of_year,
                             data = TA_LogR_SPEI24)
 
 #Anova F-test
@@ -315,14 +327,14 @@ plot(predictorEffect(predictor = "Yr_Comb_rao_FP", mod = Recovery_SPEI24))
 plot(Recovery_SPEI24)
 qqPlot(Recovery_SPEI24)
 vif(Recovery_SPEI24)
-performance::r2(Recovery_SPEI24) #0.345 (adj - 0.313)
+performance::r2(Recovery_SPEI24) #0.345 (adj - 0.317)
 
 
 ##models for taxonomic component
 
 #fit model with lm
 Recovery_SPEI24.tx <- lm(LogR ~ Yr_species_rich + Yr_lui + Explo +
-                                 day_of_year + Yr_Myco_intensity,
+                                 day_of_year,
                                data = TA_LogR_SPEI24)
 
 #Anova with F-test
@@ -335,7 +347,7 @@ plot(predictorEffect(predictor = "Yr_species_rich", mod = Recovery_SPEI24.tx))
 plot(Recovery_SPEI24.tx)
 qqPlot(Recovery_SPEI24.tx)
 vif(Recovery_SPEI24.tx)
-performance::r2(Recovery_SPEI24.tx) #0.350 (adj 0.323)
+performance::r2(Recovery_SPEI24.tx) #0.349 (adj 0.326)
 
 
 ##----------------------------------------------------------------Resistance
@@ -374,12 +386,12 @@ anyNA(TA_LogR_trpl_SPEI3)
 
 #fit model with nlme
 Resistance_SPEI3.nlme <- lme(fixed = LogR_tr_plot ~ SPEI_final_cat*(Across_PC1_CWM + Yr_Comb_rao_FP) + Yr_lui + Explo +
-                             day_of_year + Yr_Myco_intensity,
+                             day_of_year,
                            data = TA_LogR_trpl_SPEI3, random = ~ 1 | Useful_EP_PlotID)
 
 #fit model with lmer
 Resistance_SPEI3.lmer <- lmer(LogR_tr_plot ~ SPEI_final_cat*(Across_PC1_CWM + Yr_Comb_rao_FP) + Yr_lui + Explo +
-                              day_of_year + Yr_Myco_intensity + (1 | Useful_EP_PlotID),
+                              day_of_year + (1 | Useful_EP_PlotID),
                             data = TA_LogR_trpl_SPEI3)
 
 
@@ -406,12 +418,12 @@ performance::r2(Resistance_SPEI3.nlme) #.130 (marginal) / .130 (conditional)
 
 #fit model with nlme
 Resistance_SPEI3.tx.nlme <- lme(fixed = LogR_tr_plot ~ SPEI_final_cat*Yr_species_rich + Yr_lui + Explo +
-                                day_of_year + Yr_Myco_intensity,
+                                day_of_year,
                               data = TA_LogR_trpl_SPEI3, random = ~ 1 | Useful_EP_PlotID)
 
 #fit model with lmer
 Resistance_SPEI3.tx.lmer <- lmer(LogR_tr_plot ~ SPEI_final_cat*Yr_species_rich + Yr_lui + Explo +
-                                 day_of_year + Yr_Myco_intensity + (1 | Useful_EP_PlotID),
+                                 day_of_year + (1 | Useful_EP_PlotID),
                                data = TA_LogR_trpl_SPEI3)
 
 
@@ -429,7 +441,7 @@ plot(predictorEffect(predictor = "Yr_species_rich", mod = Resistance_SPEI3.tx.nl
 plot(Resistance_SPEI3.tx.nlme)
 qqPlot(residuals(Resistance_SPEI3.tx.nlme, type = "normalized"))
 vif(Resistance_SPEI3.tx.nlme)
-performance::r2(Resistance_SPEI3.tx.nlme) #.156 (marginal) / .156 (conditional)
+performance::r2(Resistance_SPEI3.tx.nlme) #.155 (marginal) / .155 (conditional)
 
 
 ##----------------------------------------------------------------SPEI-12
@@ -465,12 +477,12 @@ anyNA(TA_LogR_trpl_SPEI12)
 
 #fit model with nlme
 Resistance_SPEI12.nlme <- lme(fixed = LogR_tr_plot ~ SPEI_final_cat*(Across_PC1_CWM + Yr_Comb_rao_FP) + Yr_lui + Explo +
-                               day_of_year + Yr_Myco_intensity,
+                               day_of_year,
                              data = TA_LogR_trpl_SPEI12, random = ~ 1 | Useful_EP_PlotID)
 
 #fit model with lmer
 Resistance_SPEI12.lmer <- lmer(LogR_tr_plot ~ SPEI_final_cat*(Across_PC1_CWM + Yr_Comb_rao_FP) + Yr_lui + Explo +
-                                day_of_year + Yr_Myco_intensity + (1 | Useful_EP_PlotID),
+                                day_of_year + (1 | Useful_EP_PlotID),
                               data = TA_LogR_trpl_SPEI12)
 
 
@@ -490,19 +502,19 @@ plot(predictorEffect(predictor = "Yr_Comb_rao_FP", mod = Resistance_SPEI12.nlme)
 plot(Resistance_SPEI12.nlme)
 qqPlot(residuals(Resistance_SPEI12.nlme, type = "normalized"))
 vif(Resistance_SPEI12.nlme)
-performance::r2(Resistance_SPEI12.nlme) #.240 (marginal) / .240 (conditional)
+performance::r2(Resistance_SPEI12.nlme) #.239 (marginal) / .239 (conditional)
 
 
 ##models for taxonomic component
 
 #fit model with nlme
 Resistance_SPEI12.tx.nlme <- lme(fixed = LogR_tr_plot ~ SPEI_final_cat*Yr_species_rich + Yr_lui + Explo +
-                                  day_of_year + Yr_Myco_intensity,
+                                  day_of_year,
                                 data = TA_LogR_trpl_SPEI12, random = ~ 1 | Useful_EP_PlotID)
 
 #fit model with lmer
 Resistance_SPEI12.tx.lmer <- lmer(LogR_tr_plot ~ SPEI_final_cat*Yr_species_rich + Yr_lui + Explo +
-                                   day_of_year + Yr_Myco_intensity + (1 | Useful_EP_PlotID),
+                                   day_of_year + (1 | Useful_EP_PlotID),
                                  data = TA_LogR_trpl_SPEI12)
 
 
@@ -556,12 +568,12 @@ anyNA(TA_LogR_trpl_SPEI24)
 
 #fit model with nlme
 Resistance_SPEI24.nlme <- lme(fixed = LogR_tr_plot ~ SPEI_final_cat*(Across_PC1_CWM + Yr_Comb_rao_FP) + Yr_lui + Explo +
-                                day_of_year + Yr_Myco_intensity,
+                                day_of_year,
                               data = TA_LogR_trpl_SPEI24, random = ~ 1 | Useful_EP_PlotID)
 
 #fit model with lmer
 Resistance_SPEI24.lmer <- lmer(LogR_tr_plot ~ SPEI_final_cat*(Across_PC1_CWM + Yr_Comb_rao_FP) + Yr_lui + Explo +
-                                 day_of_year + Yr_Myco_intensity + (1 | Useful_EP_PlotID),
+                                 day_of_year + (1 | Useful_EP_PlotID),
                                data = TA_LogR_trpl_SPEI24)
 
 
@@ -588,12 +600,12 @@ performance::r2(Resistance_SPEI24.nlme) #.252 (marginal) / .252 (conditional)
 
 #fit model with nlme
 Resistance_SPEI24.tx.nlme <- lme(fixed = LogR_tr_plot ~ SPEI_final_cat*Yr_species_rich + Yr_lui + Explo +
-                                   day_of_year + Yr_Myco_intensity,
+                                   day_of_year,
                                  data = TA_LogR_trpl_SPEI24, random = ~ 1 | Useful_EP_PlotID)
 
 #fit model with lmer
 Resistance_SPEI24.tx.lmer <- lmer(LogR_tr_plot ~ SPEI_final_cat*Yr_species_rich + Yr_lui + Explo +
-                                    day_of_year + Yr_Myco_intensity + (1 | Useful_EP_PlotID),
+                                    day_of_year + (1 | Useful_EP_PlotID),
                                   data = TA_LogR_trpl_SPEI24)
 
 
@@ -611,7 +623,7 @@ plot(predictorEffect(predictor = "Yr_species_rich", mod = Resistance_SPEI24.tx.n
 plot(Resistance_SPEI24.tx.nlme)
 qqPlot(residuals(Resistance_SPEI24.tx.nlme, type = "normalized"))
 vif(Resistance_SPEI24.tx.nlme)
-performance::r2(Resistance_SPEI24.tx.nlme) #.257 (marginal) / .257 (conditional)
+performance::r2(Resistance_SPEI24.tx.nlme) #.255 (marginal) / .255 (conditional)
 
 
 ##----------------------------------------------------------------Plot confidence intervals

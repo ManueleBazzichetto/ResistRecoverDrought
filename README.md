@@ -1,7 +1,9 @@
 # ResistRecoverDrought 
 [![DOI](https://zenodo.org/badge/620832781.svg)](https://zenodo.org/badge/latestdoi/620832781)
 
-This repo includes (R) scripts and data to replicate the results presented in the manuscript "Functional components of biodiversity mediate stability of grasslands under extreme drought"
+**The repo is going to be updated soon by a third release!**
+
+This repo includes (R) scripts and data to replicate the results presented in the manuscript **"NEW TITLE"**.
 
 Data used in the analyses can be found in the 'Data' folder. Note that SPEI data (v 2.6), which we used to quantify the intensity of drought, are openly available at: https://digital.csic.es/handle/10261/202305
 
@@ -14,13 +16,12 @@ Brief description of data found in the 'Data' folder:
 
 Brief description of scripts to replicate the results presented in the manuscript: 
 
-Please, run the scripts following this order: Functions -> Data_prep -> SPEI_data -> Analysis -> Analysis2 -> Diagnostics -> ModelTables
+Please, run the scripts following this order: Functions -> Data_prep -> SPEI_data -> Time_series_log_ratios -> Recovery_resistance -> ModelTables
 
-- Functions: this script reports several functions, including those for: (i) computing the annual log ratio; (ii) performing a principal component analysis on the CWMs of the plant traits; and (iii) fit linear regression for year-specific analysis (see script 'Analysis');
-- Data_prep: this script provides the code for generating the data needed to run the analysis in scripts 'Analysis' and 'Analysis2';
-- Analysis: this script reports year-specific analysis of the log response ratios, which we modelled as a function of biodiversity and land-use intensity;
-- Analysis2: this script reports the analysis of the effect of the interaction between drought intensity and biodiversity on biomass resistance and recovery;
-- Diagnostics: diagnostics of the models fitted in 'Analysis';
-- ModelTables: this script allows reproducing the tables of model summaries.   
+- Functions: this script includes the R functions needed for (i) computing the annual log ratio (in Data_prep); and (ii) performing a principal component analysis on the CWMs of the plant traits (also happening in Data_prep);
+- Data_prep: essentially, this script is for generating and processing all data needed to run the analysis in scripts 'Time_series_log_ratios' and 'Recovery_resistance';
+- Time_series_log_ratios: this script reports the time-series analysis of the log response ratios, which are modelled as a function of biodiversity and land-use intensity;
+- Recovery_resistance: this script reports the analysis on the effect of the interaction between drought intensity and biodiversity on biomass resistance and recovery;
+- ModelTables: this script allows reproducing the tables of model summaries (presented in the supplementary material of the manuscript).   
 
 **All data made available in this repo are released under CC-BY license 4.0**

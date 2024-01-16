@@ -1,8 +1,6 @@
 # ResistRecoverDrought 
 [![DOI](https://zenodo.org/badge/620832781.svg)](https://zenodo.org/badge/latestdoi/620832781)
 
-**The repo is going to be updated soon by a third release!**
-
 This repo includes (R) scripts and data to replicate the results presented in the manuscript **"Biodiversity promotes resistance but dominant species shape recovery of grasslands under extreme drought"**.
 
 Data used in the analyses can be found in the 'Data' folder. Note that SPEI data (v 2.6), which we used to quantify the intensity of drought, are openly available at: https://digital.csic.es/handle/10261/202305

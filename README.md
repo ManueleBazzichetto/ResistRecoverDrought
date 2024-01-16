@@ -19,7 +19,7 @@ Brief description of scripts to replicate the results presented in the manuscrip
 Please, run the scripts following this order: Functions -> Data_prep -> SPEI_data -> Time_series_log_ratios -> Recovery_resistance -> ModelTables
 
 - Functions: this script includes the R functions needed for (i) computing the annual log ratio (in Data_prep); and (ii) performing a principal component analysis on the CWMs of the plant traits (also happening in Data_prep);
-- Data_prep: essentially, this script is for generating and processing all data needed to run the analysis in scripts 'Time_series_log_ratios' and 'Recovery_resistance';
+- Data_prep: essentially, this script is for generating and processing all data needed to run the analyses in scripts 'Time_series_log_ratios' and 'Recovery_resistance';
 - Time_series_log_ratios: this script reports the time-series analysis of the log response ratios, which are modelled as a function of biodiversity and land-use intensity;
 - Recovery_resistance: this script reports the analysis on the effect of the interaction between drought intensity and biodiversity on biomass resistance and recovery;
 - ModelTables: this script allows reproducing the tables of model summaries (presented in the supplementary material of the manuscript).   
